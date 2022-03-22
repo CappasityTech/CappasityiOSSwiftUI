@@ -1,0 +1,11 @@
+framework module CappasitySwiftUI {
+  umbrella header "CappasitySwiftUI.h"
+
+  export *
+  module * { export * }
+}
+
+module CappasitySwiftUI.Swift {
+    header "CappasitySwiftUI-Swift.h"
+    requires objc
+}
